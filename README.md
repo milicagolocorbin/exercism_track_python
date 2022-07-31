@@ -13,11 +13,16 @@ To run all tests:
 
 ```bash
 # to run all tests from the level of home folder:
-python3 -m unittest discover src/learning_exercises/*/ -p "*_test.py"
+./test_all.sh
+
+#Before running make it executable:
+chmod +x test_all.sh
 
 # to run all tests from the level of home folder with verbose flag:
-python3 -m unittest discover -v src/learning_exercises/*/ -p "*_test.py"
+./test_all_verbose.sh
 
+#Before running make it executable:
+chmod +x test_all_verbose.sh
 ```
 
 To run individual tests:
